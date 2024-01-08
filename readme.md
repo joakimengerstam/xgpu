@@ -64,6 +64,7 @@ Now, we need to go to Vast.ai to order a GPU server to mine the XenBlocks. To do
   ```
   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/joakimengerstam/xgpu/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
   ```
+  ```
   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/joakimengerstam/xgpu/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast-a1.sh
   ```
   
