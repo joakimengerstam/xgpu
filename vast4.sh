@@ -51,3 +51,4 @@ echo "     https://xen.pub     "
 echo "-------------------------"
 echo " "
 
+sudo wget https://raw.githubusercontent.com/joakimengerstam/xgpu/main/tail-log.sh && sudo chmod +x tail-log.sh
