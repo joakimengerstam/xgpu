@@ -23,6 +23,9 @@ echo "STEP 5 of 10: Installed Python"
 sudo git clone https://github.com/shanhaicoder/XENGPUMiner.git > /dev/null 2>&1
 echo "STEP 6 of 10: Cloned https://github.com/shanhaicoder/XENGPUMiner.git"
 
+sudo wget https://raw.githubusercontent.com/joakimengerstam/xgpu/main/tail-log.sh && sudo chmod +x tail-log.sh
+echo "STEP 6.1: Copied tail log script"
+
 cd XENGPUMiner
 sudo chmod +x build.sh > /dev/null 2>&1
 sudo ./build.sh > /dev/null 2>&1
@@ -50,5 +53,3 @@ echo "    MINING  XENBLOCKS    "
 echo "     https://xen.pub     "
 echo "-------------------------"
 echo " "
-
-sudo wget https://raw.githubusercontent.com/joakimengerstam/xgpu/main/tail-log.sh && sudo chmod +x tail-log.sh
